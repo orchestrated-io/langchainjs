@@ -1,5 +1,5 @@
 {
-  "name": "@teamform-langchain/community",
+  "name": "@orchestrated-io/langchain-community",
   "version": "1.0.2",
   "description": "Third-party integrations for LangChain.js",
   "author": "LangChain",
