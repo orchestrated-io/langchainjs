@@ -1,5 +1,5 @@
 {
-  "name": "@langchain/community",
+  "name": "@teamform-langchain/community",
   "version": "1.0.1",
   "description": "Third-party integrations for LangChain.js",
   "author": "LangChain",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:langchain-ai/langchainjs.git"
+    "url": "git@github.com:orchestrated-io/langchainjs.git"
   },
-  "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-community/",
+  "homepage": "https://github.com/orchestrated-io/langchainjs/tree/main/libs/langchain-community/",
   "scripts": {
     "build": "pnpm --filter @langchain/build compile @langchain/community",
     "lint:eslint": "eslint --cache src/",
@@ -673,7 +673,7 @@
     }
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"  
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
